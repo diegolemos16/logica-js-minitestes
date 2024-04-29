@@ -1,6 +1,6 @@
 // Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let seuNome = prompt('Insira seu nome');
-alert ('Boas vindas, ' + seuNome + '!');
+alert (`Boas vindas, ${seuNome} !`);
 
 // Idade para habilitação
 
