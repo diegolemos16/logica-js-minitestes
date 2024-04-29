@@ -1,9 +1,13 @@
+// Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+let seuNome = prompt('Insira seu nome');
+alert ('Boas vindas, ' + seuNome + '!');
+
 // Idade para habilitação
 
-let idade = prompt ('qual a sua idade');
+let idade = prompt ('Qual a sua idade');
 if(idade >= 18){
-    alert ('pode tirar a habilitação');
-}
+    alert ('Pode tirar a habilitação!');
+} else {alert('Não pode tirar habilitação!')}
 
 // Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
@@ -31,9 +35,4 @@ if(numeroPositivoOuNegativo > 0){
         alert ('Esse número é negativo');
     }
 }
-
-// Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
-let seuNome = prompt('Insira seu nome');
-alert ('Boas vindas, ' + seuNome + '!');
-
 
