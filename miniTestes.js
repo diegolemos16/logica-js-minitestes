@@ -1,3 +1,20 @@
+// cálculo da média
+let qtdNumeros = prompt('Digite a quantidade de números para o cálculo da média:');
+let soma = 0;
+let contador = qtdNumeros;
+
+while(contador > 0){
+    let numero = parseInt(prompt('Digite o numero:'));
+    //soma = soma + numero;
+    soma += numero;
+    contador--;
+}
+
+let media = soma / qtdNumeros;
+
+console.log(media);
+alert(`A média é igual a: ${media}`);
+
 // Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let seuNome = prompt('Insira seu nome');
 alert (`Boas vindas, ${seuNome} !`);
@@ -35,4 +52,6 @@ if(numeroPositivoOuNegativo > 0){
         alert ('Esse número é negativo');
     }
 }
+
+
 
