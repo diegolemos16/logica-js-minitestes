@@ -18,6 +18,7 @@ if(diaDaSemana == 'Sábado'){
     alert('Boa semana');
     }
 }
+
 // Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 
 let numeroPositivoOuNegativo = prompt('Digite um número');
