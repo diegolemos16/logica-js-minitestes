@@ -59,7 +59,7 @@ if(idade >= 18){
 // Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
 let diaDaSemana = prompt ('Qual o dia da semana?');
-if(diaDaSemana == 'Sábado' || 'Domingo' || 'sábado' || 'domingo'){
+if(diaDaSemana == 'Sábado'|| diaDaSemana == 'Domingo' || diaDaSemana == 'sábado' || diaDaSemana == 'domingo'){
     alert('Bom fim de semana!');
 }else{
     alert('Boa semana');
@@ -71,12 +71,9 @@ let numeroPositivoOuNegativo = prompt('Digite um número');
 if(numeroPositivoOuNegativo > 0){
     alert ('Esse número é positivo')
 } else {
-    if(numeroPositivoOuNegativo = 0){
+    if(numeroPositivoOuNegativo == 0){
         alert ('Esse número é nulo')
     }else {
         alert ('Esse número é negativo');
     }
 }
-
-
-
